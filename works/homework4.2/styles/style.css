@@ -1,0 +1,28 @@
+html {
+    background-color: blanchedalmond;
+}
+body {
+    background-color: orange;
+    width: 50%;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 2% auto;
+}
+.first-p {
+    color: green;
+    font-size: larger;
+    font-style: italic;
+}
+.second-p, li {
+    color: royalblue;
+    font-size: medium;
+    font-weight: bold;
+    font-style: oblique;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+h1 {
+    text-shadow: 3px 3px 5px red;
+}

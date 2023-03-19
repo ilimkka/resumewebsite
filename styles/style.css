@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background: linear-gradient(to bottom, white, grey, black);
+}
+header {
+    background: linear-gradient(rgb(153, 86, 97), blueviolet);
+    color: azure;
+    padding: 30px;
+    text-align: right;
+    font-size: 2.5vw;
+    line-height: 0.8em;
+}
+.headerh1 {
+    font-size: 10vw;
+}
+.aiulogo {
+    display: inline;
+    float: left;
+}
+main {
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    width: 100%;
+    float: left;
+}
+section{
+    background: black;
+    float: left;
+    width: 100%;
+}
+.secnav {
+    float: inline-start;
+    padding: 2% 4%;
+    color: azure;
+    background-color: black;
+    font-size: 3vw;
+    text-decoration: none;
+}
+.secnav:hover {
+    background-color: rgb(45, 43, 43);
+    cursor: pointer;
+}
+#current {
+    background-color: green;
+}
+#titlesec {
+    background-color: blueviolet;
+    color: azure;
+}
+.content {
+    float: left;
+    display: flex;
+}
+article{
+    float: left;
+    flex: 40;
+    width: 80%;
+    color: rgb(0, 0, 0);
+    background-color: azure;
+}
+.cvsec {
+    max-width: 100%;
+}
+aside {
+    padding-left: 2%;
+    float: left;
+    flex: 6;
+    background-color: green;
+    width: 20%;
+    color: azure;
+    line-height: 1.5em;
+    text-align: left;
+}
+.asli:link, .asli:visited {
+    background-color: green;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .asli:hover, .asli:active {
+    background-color: rgb(0, 75, 0);
+  }
+footer{
+    display: block;
+    padding: 30px;
+    text-align: left;
+    font-size: 3vw;
+    float: left;
+    color: azure;
+    width: 100%;
+}
+.conta:link{
+    font-size: 2vw;
+    color: azure;
+}
+.conta:hover {
+    color: greenyellow;
+}
+.adress {
+    display: inline;
+    max-width: 30%;
+}
+.instaqr {
+    display: inline;
+    width: 48%;
+    height: auto;
+}
+.adress, .qrblock {
+    display: inline-block;
+    width: 40%;
+    height: auto;
+    box-sizing: border-box;
+}
+.qrblock {
+    float: right;
+}
+.instaqr:hover {
+    display: inline;
+    width: 49%;
+    height: auto;
+}
+.worksart {
+    text-align: center;
+    width: 100%;
+    float: left;
+    display: flex;
+    background-color: azure;
+}
+.divchik {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 2%;
+}
+.divchik:link .divchik:visited {
+    color: azure;
+    text-decoration: none;
+    display: inline-block;
+}
+.divchik:hover {
+    background-color: rgb(169, 180, 180);
+}

@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    background-color: darkslategray;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+main {
+    background-color: gray;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    width: 100%;
+    float: left;
+}
+section{
+    background-color: blueviolet;
+    float: left;
+    width: 100%;
+}
+article{
+    float: left;
+    width: 80%;
+    color: rgb(0, 0, 0);
+}
+aside {
+    float: left;
+    background-color: greenyellow;
+    width: 20%;
+}
+footer{
+    display: block;
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    float: left;
+    color: whitesmoke;
+    width: 100%;
+}
